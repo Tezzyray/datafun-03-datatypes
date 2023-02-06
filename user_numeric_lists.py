@@ -2,7 +2,7 @@ import statistics
 import math
 
 
-# TASK 3 NUMERIC LISTS AND LIST STATISTICS
+#### TASK 3 NUMERIC LISTS AND LIST STATISTICS
 list1=[2,10,30,5,7,9,12,13,54,68,76,62,32,21,33,44,60,78,98,77]
 mean_list1=statistics.mean(list1)
 median_list1=statistics.median(list1)
