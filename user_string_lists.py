@@ -40,8 +40,24 @@ print('The zipped list are:', zip_list)
 #String Lists 2. Random Choice
 
 random_ad_types=random.choice(Advert_types)
-print('This is a random advert type suggested:', randon_ad_types)
+print('This is a random advert type suggested:', random_ad_types)
+print()
+print()
 
+
+#String Lists 3. Get Unique Words
+with open ("text_simple.txt", "r") as file:
+    text=file.read()
+    list_words = text.split()
+    unique_words=set(list_words)
+
+print('Unique words was gotten from the simple file.')
+
+#sorting
+
+sorted_words=sorted(unique_words)
+lenght_unique_words=len(unique_words)
+print('The lenght of the unique words is:', lenght_unique_words)
 
 # reusable functions next
 
